@@ -1,0 +1,369 @@
+	body {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	table{
+		border-collapse:collapse;
+	}
+	td{
+		padding: 0;
+	}
+	
+	li{
+   		list-style: none;
+	}
+	ul{
+		padding:0ex;
+		margin: 0px;
+	}
+	
+
+	.titleTableDiv{
+		position: absolute;
+		left: 0;
+		z-index: 2;
+	}
+	.topTable{
+		display: table;
+	}
+	.topTable td{
+		border-top:1px solid #cccccc;
+		border-left: 1px solid #e5e5e5;
+		border-right: 1px solid #e5e5e5;
+		text-align: center;
+		height:20px;
+		display: table-cell;
+		background-color: #E4F5F8;
+		color: #0D8596;
+		font-size: 13px;
+		font-family: 微软雅黑,宋体;
+		font-weight: bold;
+		line-height: 20px;
+	}
+	 .classdataTbale{
+		table-layout: fixed;
+	} 
+	 .classdataTbale td{
+		cursor: pointer;
+	} 
+	.bottomTable{
+		display: table;
+	}
+	.bottomTable #data_tr1 td{
+		border-top:1px solid #cccccc;
+		border-left: 1px solid #e5e5e5;
+		/* border-right: 1px solid #e5e5e5; */
+		text-align: center;
+		height:20px;
+		display: table-cell;
+		background-color: #E4F5F8;
+		color: #0D8596;
+		font-size: 13px;
+		font-family: 微软雅黑,宋体;
+		font-weight: bold;
+		line-height: 20px;
+	}
+	.bottomTable #data_tr0 td{
+		border-left: 1px solid #e5e5e5;
+	/* 	border-right: 1px solid #e5e5e5; */
+		text-align: center;
+		height:20px;
+		display: table-cell;
+		color: black;
+		font-size: 13px;
+		line-height: 20px;
+		font-variant: normal;
+	}
+	 .bottomdataTbale{
+		table-layout: fixed;
+		top: -4px;
+		border-collapse:separate;border-spacing:0px 8px;
+	} 
+   .tr1 .tr0{
+	  cursor: pointer;
+	}
+	.bodyDataDiv table td{
+		border: 1px solid #e5e5e5;
+		text-align: center;
+		font-family: "微软雅黑,宋体";
+		font-size: 12px;
+		color: #414141;
+	}
+	
+	.bodyDataDiv{
+		position:absolute;
+		left:0;
+		overflow-y:auto;
+		margin-top: 20px;
+		height: 660px;
+	}
+	#datashows{
+	height: 145px;
+    position:absolute;
+	bottom: 5px;
+	width:100%;
+    left: 0px;
+	border: 1px solid #cccccc;
+	display:none;
+	}
+	#listDates{
+	position: absolute;
+		left: 0;
+		z-index: 2;
+	}
+	.datetables{
+	width: 100%;
+  	height: 100px;
+  	border: none;
+  	margin-top: 15px;
+	}
+	#data_tr1{
+	margin-top: 20px;
+	}
+	#data_tr2{
+	margin-top: 20px;
+	}
+	.dataTitle{
+	color: black;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: right;
+    width: 120px;
+	}
+	.dataVale{
+	color: black;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    width: 100px;
+    padding-left: 8px;
+	}
+    
+	.topDiv{
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		z-index: 2;
+		background-color: #FFF;
+		margin-top: 20px;
+	}
+	
+	
+	
+	
+	.dataTbale td{
+		height: 35px;
+	}
+	
+	.tr1{
+		background-color: #f4f8fd;
+	}
+	
+	.bodyDataDiv tr:not(.trClassAdd):HOVER {
+		background-color: #f4f8fd;
+	}
+	
+	.footDiv{
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 2;
+		height: 25px;
+		border: 1px solid #cccccc;
+		background: #f4f4f4;
+	}
+	.footDiv ul{
+		margin-top: 2px;
+		height: 20px;
+	}
+	.footDiv ul li{
+		height: 20px;
+		float: left;
+	}
+	
+	.bodybtDiv{
+		background: #16bece;
+		font-size: 12px;
+		font-family: "宋体";
+		font-weight: bold;
+		border-radius:3px;
+		color: #FFFFF7;
+		width: 58px;
+		height: 21px;
+		cursor: pointer;
+		line-height: 21px;
+		float: left;
+		margin-left: 5px;
+		text-align: center;
+	}
+	
+	.bodybtDiv:HOVER {
+		background-color: #07B7BF;
+		color: #EEECEB;
+	}
+	.pageTd{
+		width:30px;
+	}
+	.splitLine{
+		margin-left: 20px;
+	}
+	.pageTd img{
+		margin-left: 10px;
+		width:11px;
+		height:11px;
+		cursor: pointer;
+	}
+	.pageTd img:HOVER{
+		width:12px;
+		height:12px;
+	}
+	.conditionOne{
+		width: 250px;
+		margin-left: 20px;
+		float: left;
+		margin-top: 10px;
+	}
+	.dateone{
+		width: 250px;
+		margin-left: 20px;
+		float: left;
+		margin-top: 20px;
+	}
+	.conditionOne span{
+		font-size: 12px;
+		font-family: "微软雅黑,宋体";
+	    font-weight: bold;
+	}
+	.conditionSpan{
+		display:block;
+		width:100px;
+		float:left;
+		text-align: right;
+	}
+	
+	
+	.conditionDiv{
+		width: 80%;
+		float: left;
+		height: 45px;
+	}
+	.dateshowdiv{
+		width: 85%;
+		float: left;
+		height: 45px;
+	}
+	.conditionBtDiv{
+		width: 20%;
+		float: left;
+		height: 45px;
+	}
+	.conditionBtDiv .bodybtDiv{
+		margin-top: 10px;
+	}
+	.loadDiv{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		padding-top:20%;
+		top:0;
+		left:0;
+		z-index: 99;
+		background-color: rgba(0,0,0,0.1);
+		display: none;
+	}
+	
+	.bodyDataDiv::-webkit-scrollbar{
+		height: 16px;
+		width: 16px;
+		background-color: #F1F1F1;
+	}
+	
+	.bodyDataDiv::-webkit-scrollbar-thumb{
+		border-radius:2px;
+		background-color: #cbcedc;	
+		cursor: pointer;
+	}
+	.font_bottom_line{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+	.tdAlarm{
+    background-color: red;
+	}
+	.tdAlarmed{
+	}
+	#menubar{
+	width: 100%;
+	margin-top: 0px;
+	}
+	#closebar{
+	float: right;
+	margin-right: 17px;
+	font-size: 18px;
+	color: #0D8596;
+	cursor: pointer;
+	}
+	.trClassAdd{
+	background-color: #16BECE;
+	}
+	.alinkStyle{
+	 color:blue;
+	 cursor: pointer; 
+	 display: block;
+	 line-height: 35px;
+	 float: left;
+	 margin-left: 20%;
+	}
+	.alertStyle-back{
+	background: red;
+    border-radius: 1%;
+    width: 26%;
+    margin-left: 37%;
+    height: 15px;
+    box-shadow:10px 7px 28px 0px red,5px 1px 8px 1px red; 	
+	}
+	.alertStyle{
+    border-radius: 1%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 3%;
+    background-color: red;
+	}
+	.alertStyletr{
+	background: red;
+    border-radius: 100%;
+    float: left;
+    margin-left: 7%;
+    box-shadow: 4px 4px 9px 0px red,-1px 0px 7px 2px red;
+    line-height: 5px;
+    height: 5px;
+    margin-top: 14px;
+    width: 5px;
+	}
+	.notalertStyletr{
+    border-radius: 100%;
+    float: left;
+    margin-left: 7%;
+    line-height: 5px;
+    height: 5px;
+    margin-top: 14px;
+    width: 5px;
+	}
+	.alertStyle1{
+    box-shadow:8px 5px 25px 0px red,4px 1px 6px 1px red; 	
+	}
+	.dataspan{
+    text-align: center;
+	}
+	.tdClass{
+    background: red;
+    float: left;
+    width: 2px;
+    height: 32px;
+    margin-left: 2%;
+	}
+	#extraConditionFlag{
+	width: 148px;
+	}

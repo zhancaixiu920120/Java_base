@@ -1,0 +1,188 @@
+	body {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	table{
+	}
+	td{
+	padding: 0;
+    font-size:11px;
+    font-weight: bold;
+	}
+	
+	li{
+   		list-style: none;
+	}
+	ul{
+		padding:0ex;
+		margin: 0px;
+	}
+	
+	.topTable{
+		display: table;
+	}
+	.titleTableDiv{
+		position: absolute;
+		left: 0;
+		z-index: 2;
+	}
+	.topTable td{
+		border-top:1px solid #cccccc;
+		border-left: 1px solid #e5e5e5;
+		border-right: 1px solid #e5e5e5;
+		text-align: center;
+		height:22px;
+		display: table-cell;
+		background-color: #E4F5F8;
+		color: #0D8596;
+		font-size: 13px;
+		font-family: 微软雅黑,宋体;
+		font-weight: bold;
+		line-height: 22px;
+	}
+	
+	.bodyDataDiv table td{
+		border: 1px solid #e5e5e5;
+		text-align: center;
+		font-family: "微软雅黑,宋体";
+		font-size: 12px;
+		color: #414141;
+		height:35px;
+	}
+	.bodyDataDiv{
+		position:absolute;
+		left:0;
+		overflow-y: scroll;
+		overflow-x:auto;
+	}
+	
+	.topDiv{
+		float:left;
+		background-color: #FFF;
+	}
+	
+	 .classdataTbale{
+		table-layout: fixed;
+	} 
+	
+	.tr1{
+		background-color: #f4f8fd;
+	}
+	
+	.bodyDataDiv tr:HOVER {
+		background-color: #f4f8fd;
+	}
+	
+	.footDiv{
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		z-index: 2;
+		height: 25px;
+		border: 1px solid #cccccc;
+		background: #f4f4f4;
+	}
+	.footDiv ul{
+		margin-top: 2px;
+		height: 20px;
+	}
+	.footDiv ul li{
+		height: 20px;
+		float: left;
+	}
+	
+	.bodybtDiv{
+		background: #16bece;
+		font-size: 12px;
+		font-family: "宋体";
+		font-weight: bold;
+		border-radius:3px;
+		color: #FFFFF7;
+		width: 58px;
+		height: 21px;
+		cursor: pointer;
+		line-height: 21px;
+		float: left;
+		margin-left: 5px;
+		text-align: center;
+	}
+	
+	.bodybtDiv:HOVER {
+		background-color: #07B7BF;
+		color: #EEECEB;
+	}
+	.pageTd{
+		width:30px;
+	}
+	.splitLine{
+		margin-left: 20px;
+	}
+	.pageTd img{
+		margin-left: 10px;
+		width:11px;
+		height:11px;
+		cursor: pointer;
+	}
+	.pageTd img:HOVER{
+		width:12px;
+		height:12px;
+	}
+	.conditionOne{
+		width: 250px;
+		margin-left: 20px;
+		float: left;
+		margin-top: 10px;
+	}
+	.conditionOne span{
+		font-size: 12px;
+		font-family: "微软雅黑,宋体";
+	    font-weight: bold;
+	}
+	.conditionSpan{
+		display:block;
+		width:100px;
+		float:left;
+		text-align: right;
+	}
+	
+	
+	.conditionDiv{
+		width: 80%;
+		float: left;
+		height: 45px;
+	}
+	.conditionBtDiv{
+		width: 20%;
+		float: left;
+		height: 45px;
+	}
+	.conditionBtDiv .bodybtDiv{
+		margin-top: 10px;
+	}
+	.loadDiv{
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		padding-top:20%;
+		top:0;
+		left:0;
+		z-index: 99;
+		background-color: rgba(0,0,0,0.1);
+		display: none;
+	}
+	.font_bottom_line{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+		
+ 	.bodyDataDiv::-webkit-scrollbar{
+		width: 16px;
+		background-color: #F1F1F1;
+	}
+	
+	.bodyDataDiv::-webkit-scrollbar-thumb{
+		border-radius:2px;
+		background-color: #cbcedc;	
+		cursor: pointer;
+	} 
+	

@@ -1,0 +1,54 @@
+	body {
+		margin: 0 auto;
+		overflow: hidden;
+	}
+	table{
+		border-collapse:collapse;
+	}
+	td{
+		padding: 0;
+	}
+	
+	li{
+   		list-style: none;
+	}
+	
+	ul{
+		padding:0ex;
+		margin: 0px;
+	}
+	
+	.li_table_td_one{
+		float: left;
+		margin-left: 15px;	
+		width: 300px;
+		height: 30px;
+		padding-top: 10px;
+	}
+	.li_table_td_one > div{
+		float: left;
+		margin-left: 10px;
+	}
+	.li_table_td_tiltle{
+		display: block;
+		width: 60px;
+		text-align: right;
+	    float: left;
+	    color: green;
+	    margin-left: 5px;
+	}
+	.bodybtDiv{
+		background: #16bece;
+		font-size: 12px;
+		font-family: "宋体";
+		font-weight: bold;
+		border-radius:3px;
+		color: #FFFFF7;
+		width: 58px;
+		height: 21px;
+		cursor: pointer;
+		line-height: 21px;
+		margin-left: 5px;
+		text-align: center;
+	}
+	

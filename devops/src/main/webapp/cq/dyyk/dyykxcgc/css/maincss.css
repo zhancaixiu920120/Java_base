@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+#chooseArea{
+	width: 70px;
+	margin-left: -20px;
+	}
+
+#chooseMonth{
+    width: 30px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+	}
+	#splitLine{
+	width:5px;text-align: center;
+	color: red;
+	}
+	#chooseWeek{
+	width: 30px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+	}
